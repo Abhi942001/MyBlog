@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: PT Sans Caption,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: fantasy;
+}
+ hr{
+   margin: 10px 50px 10px 50px ;;
+ }
+
+.card-title{
+  color: grey;
+  text-decoration: none;
+}
+.card-header{
+   background-color: white;
+   border-bottom: 0px ;
+}
+
+.card {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+  }
+
+.sidebar-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+  }
+
+a {
+  color: grey;
+  -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+a:hover{
+  color: grey;
+  text-decoration: none;
+  text-decoration-color: grey;
+}
+
+.site-newsletter {
+    background: #f2f4f5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}
+.site-footer .copy {
+    border-top: 1px solid #212529;
+    text-align: center;
+    color: #555d65;
+    text-transform: uppercase;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 90%;
+}
+.site-footer .nav-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #555d65;
+    text-transform: uppercase;
+    border-right: 1px solid #495057;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.bg-darkest{
+  background-color: #000!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif",serif;
+}

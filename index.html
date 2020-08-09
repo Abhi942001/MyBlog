@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Blog</title>
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <!-- bootstarp -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- css style sheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/979fcc0c33.js" crossorigin="anonymous"></script>
+  <!-- bootstarp scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-white absolute-top">
+        <div class="container">
+
+          <button class="navbar-toggler order-2 order-md-1" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-left navbar-right" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown active">
+                <a class="nav-link " href="#" >Home</a>
+
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" >Posts</a>
+
+              </li>
+
+            </ul>
+          </div>
+
+          <a class="navbar-brand mx-auto order-1 order-md-3 title" href="index.html">MyBLOG</a>
+
+          <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="page-about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page-contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline" role="search">
+              <input class="search js-search form-control form-control-rounded mr-sm-2" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+ <hr class="my-4 ">
+
+</header>
+
+<main class="main pt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <article class="card mb-4">
+          <header class="card-header">
+            <div class="card-meta">
+                <a href="#" class="article-title"><time class="timeago " datetime="2019-10-26 20:00" timeago-id="1">9 months ago</time></a> in <a href="page-category.html" class="article-title">Journey</a>
+                </div>
+                <a href="post-image.html" class="article-title">
+                <h4 class="card-title ">Lorem ipsum dolor sit amet?</h4>
+              </a>
+
+          </header>
+         <a href="post-image.html">
+         <img class="card-img  transition" src="img/articles/1.jpg" alt="">
+         </a>
+         <div class="card-body">
+              <p class="card-text">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. </p>
+         </div>
+
+
+        </article>
+        <article class="card mb-4 ">
+            <header class="card-header">
+              <div class="card-meta">
+                <a href="#" class="article-title"><time class="timeago" datetime="2019-10-03 20:00" timeago-id="2">10 months ago</time></a> in <a href="page-category.html" class="article-title">Lifestyle</a>
+              </div>
+                <a href="post-image.html" class="article-title">
+                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+              </a>
+            </header>
+            <a href="post-image.html">
+              <img class="card-img  transition" src="img/articles/2.jpg" alt="">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. </p>
+            </div>
+          </article>
+
+
+
+
+        </div>
+        <div class="col-md-3 ml-auto">
+         <aside class="sidebar">
+           <div class="card mb-4">
+             <div class="card-body">
+                 <h4 class="card-title">About</h4>
+                 <p class="card-text">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam <a href="#">semper libero</a>, sit amet adipiscing sem neque sed ipsum. </p>
+               </div>
+
+             </div>
+            </aside>
+            <aside class="sidebar sidebar-sticky">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h4 class="card-title">Tags</h4>
+                  <a class="btn btn-light btn-sm mb-1" href="page-category.html">Journey</a>
+                  <a class="btn btn-light btn-sm mb-1" href="page-category.html">Work</a>
+                  <a class="btn btn-light btn-sm mb-1" href="page-category.html">Lifestype</a>
+                  <a class="btn btn-light btn-sm mb-1" href="page-category.html">Photography</a>
+                  <a class="btn btn-light btn-sm mb-1" href="page-category.html">Food &amp; Drinks</a>
+                </div>
+              </div>
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h4 class="card-title">Popular stories</h4>
+
+                  <a href="post-image.html" class="d-inline-block">
+                    <h4 class="h6">lorem ipsum dolor</h4>
+                    <img class="card-img" src="img/articles/3.jpg" alt="">
+                  </a>
+                  <time class="timeago" datetime="2019-10-03 20:00" timeago-id="5">10 months ago</time> in Lifestyle
+
+                  <a href="post-image.html" class="d-inline-block mt-3">
+                    <h4 class="h6">Sed sed risus</h4>
+                    <img class="card-img" src="img/articles/4.jpg" alt="">
+                  </a>
+                  <time class="timeago" datetime="2019-07-16 20:00" timeago-id="6">1 year ago</time> in Work
+
+                </div>
+              </div>
+            </aside>
+           </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+<div class="site-newsletter">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="h4 mb-2">Subscribe to our newsletter</h3>
+        <p class="text-muted">Join our monthly newsletter and never miss out on new stories and promotions.</p>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-9 col-md-7 col-lg-5 ml-auto mr-auto">
+            <div class="input-group mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Email address" aria-label="Email address">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Subscribe</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer bg-darkest">
+    <div class="container">
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Instagram</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Advertise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="copy">
+        © MyBLOG 2020<br>
+        All rights reserved
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+</body>
+
+</html>
